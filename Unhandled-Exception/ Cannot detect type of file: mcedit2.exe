@@ -1,0 +1,32 @@
+An error has ocured: Unhandled Exception
+Error detail:
+MCEdit version: 2.0.0alpha-918
+Python version: 2.7.9 (default, Dec 10 2014, 12:28:03) [MSC v.1500 64 bit (AMD64)]
+Platform: win32
+System version: Windows-7-6.1.7601-SP1
+Processor: Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+Obtained a GL context with this format:
+Valid: True
+Version: 4.5
+Hardware Accelerated: True
+Depth buffer: True, 24
+Double buffer: True
+
+Driver info:
+GL_VERSION: 4.5.0 NVIDIA 355.82 (4, 5)
+GL_VENDOR: 'NVIDIA Corporation'
+GL_RENDERER: 'GeForce GTX 560 Ti/PCIe/SSE2'
+
+------
+
+Unhandled Exception
+
+Traceback (most recent call last):
+  File "mcedit2\util\profiler.py", line 73, in _wrapper (self is a Profiler)
+  File "mcedit2\editorapp.py", line 366, in didFinishLaunching (self is a MCEditApp)
+  File "mcedit2\editorapp.py", line 699, in loadFile (self is a MCEditApp)
+  File "mcedit2\editorsession.py", line 149, in __init__ (self is a EditorSession)
+  File "mceditlib\worldeditor.py", line 226, in __init__ (self is a WorldEditor)
+  File "mceditlib\findadapter.py", line 62, in findAdapter  
+ValueError: Cannot detect type of file C:\Users\pile\AppData\Roaming\.minecraft\mcedit2.exe.
